@@ -1,0 +1,16 @@
+{
+  "name": "node-streams",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "DEBUG=app* node index.js"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "debug": "4.1",
+    "json-to-csv-stream": "^1.1.0",
+    "stream-concat": "^1.0.0"
+  }
+}
